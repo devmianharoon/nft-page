@@ -75,7 +75,7 @@
 .hero-sec {
     display: flex;
     height: 564px;
-    padding: 80px 195px;
+    padding: 80px 150px;
     justify-content: center;
     align-items: center;
     gap: 30px;
@@ -90,6 +90,7 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 30px;
+    margin-top: 80px;
 
 }
 
@@ -133,8 +134,16 @@
     border: 0px;
 }
 
+.trending-text {
+    margin-bottom: 60px
+}
+
 .material-symbols-outlined {
     color: #FFFFFF;
+}
+
+.highlited-nft {
+    height: 400px;
 }
 
 .additional-info {
@@ -143,7 +152,7 @@
 }
 
 .info-h3 {
-    color: var(--white, #FFF);
+    color: #FFF;
 
 
     font-family: Space Mono;
@@ -156,8 +165,7 @@
 
 .info-p {
     align-self: stretch;
-    color: var(--white, #FFF);
-    /* font-family: Work Sans; */
+    color: #FFF;
     font-size: 23.99px;
     font-style: normal;
     font-weight: 400;
@@ -231,6 +239,7 @@
     align-items: center;
     gap: 60px;
     align-self: stretch;
+    padding-bottom: 0px;
 }
 
 .trending-box {
@@ -278,6 +287,7 @@
 }
 
 .cards-img {
+    margin-top: 15px;
     display: flex;
     align-items: flex-start;
     gap: 15px;
@@ -360,7 +370,8 @@ gap: 100px;
 
 .artist-heading {
     display: flex;
-    gap: 100px;
+    gap: 204px;
+    align-items: end;
 }
 
 .artist-main-btn {
@@ -671,10 +682,10 @@ gap: 100px;
 }
 
 .categories {
-    width: 959px;
+    width: 1069px;
     height: 768px;
     display: flex;
-    padding: 80px 195px;
+    padding: 80px 140px;
     flex-direction: column;
     align-items: center;
     gap: 60px;
@@ -692,7 +703,7 @@ gap: 100px;
 }
 
 .categories-h {
-    margin-right: 60%
+    margin-right: 66%
 }
 
 .categories-card-row1 {
@@ -735,26 +746,142 @@ gap: 100px;
 
 /* nft-highlight */
 .nft-highlight {
-    background-image: url(./22.png);
     width: auto;
     height: 620px;
-    /* background-repeat: no-repeat; */
-
-
+    background-image: radial-gradient(rgba(162, 89, 255, 0.00) 0%, #A259FF 100%), url(./nft-highlit\ \(2\).png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: end;
 }
+
+
+
 
 .frame {
     display: flex;
     width: 1050px;
-    justify-content: center;
+    height: 240px;
+    justify-content: space-around;
     align-items: flex-end;
+    /* background-color: #fff; */
+    margin-bottom: 20px;
+
+}
+
+.frame-box1 button {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 20px;
+    border: 0px;
+    background-color: rgba(59, 59, 59, 1);
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.frame-box2 h2 {
+    color: rgba(255, 255, 255, 1);
+    font-family: Work Sans;
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%;
+    text-transform: capitalize;
+}
+
+.frame-box3 button {
+    color: #2B2B2B;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    display: flex;
+    height: 60px;
+    padding: 22px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 20px;
+    background: #FFF;
+    border: 0px;
+}
+.nft-art1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.nft-art2 {
+    height: 87px;
+    display: flex;
+    width: 235px;
+    padding: 30px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: rgba(59, 59, 59, 0.50);
+    backdrop-filter: blur(5px);
+}
+
+.nft-art2 p {
+    color: #FFF;
+    font-family: Space Mono;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+    align-self: stretch;
+}
+
+.time h3 {
+    color: #FFF;
+    font-family: Space Mono;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    text-transform: capitalize;
+}
+
+.time h4 {
+    color: #FFF;
+    font-family: Space Mono;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+
+.time p {
+    color: #FFF;
+    font-family: Space Mono;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
 }
 
 .how-work {
-    width: 958px;
+    width: 1060px;
     height: 578px;
     display: flex;
-    padding: 80px 195px;
+    padding: 80px 144px;
     flex-direction: column;
     align-items: center;
     gap: 48px;
@@ -763,7 +890,7 @@ gap: 100px;
 }
 
 .work-heading {
-    margin-right: 60%;
+    margin-right: 70%;
 }
 
 .work-heading-p1 {
@@ -796,7 +923,7 @@ gap: 100px;
 
 .info-card1 {
     width: 330px;
-    height: 373px;
+    height: 413px;
     background-color: #3B3B3B;
     border-radius: 20px;
     display: flex;
@@ -820,7 +947,7 @@ gap: 100px;
 
 .info-card2 {
     width: 270px;
-    height: 493px;
+    height: 413px;
     border-radius: 20px;
     background-color: #3B3B3B;
     display: flex;
@@ -890,6 +1017,7 @@ gap: 100px;
 }
 
 .subsribe-form {
+    width: 408px;
     border-radius: 20px;
     background: #FFF;
     border-radius: 20px;
@@ -926,10 +1054,10 @@ gap: 100px;
 }
 
 .footer {
-    width: 959px;
+    width: 1069px;
     height: 254px;
     display: flex;
-    padding: 40px 195px;
+    padding: 40px 140px;
     flex-direction: column;
     align-items: center;
     gap: 30px;
@@ -973,6 +1101,11 @@ gap: 100px;
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
+}
+
+.svg-icon {
+    display: flex;
+    gap: 10px;
 }
 
 #icon-img {
@@ -1071,7 +1204,9 @@ gap: 100px;
     font-style: normal;
     font-weight: 400;
     line-height: 110%;
+    margin-right: 73%;
 }
-#foter-logo{
+
+#foter-logo {
     margin-left: 0px;
 }
